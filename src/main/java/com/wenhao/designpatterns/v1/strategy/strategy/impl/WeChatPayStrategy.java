@@ -1,6 +1,6 @@
-package com.wenhao.designpatterns.v1strategypatterns.strategy.strategy.impl;
+package com.wenhao.designpatterns.v1.strategy.strategy.impl;
 
-import com.wenhao.designpatterns.v1strategypatterns.strategy.strategy.PayStrategy;
+import com.wenhao.designpatterns.v1.strategy.strategy.PayStrategy;
 import org.springframework.stereotype.Component;
 
 @Component

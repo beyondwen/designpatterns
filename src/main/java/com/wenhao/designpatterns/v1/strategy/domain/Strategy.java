@@ -1,4 +1,4 @@
-package com.wenhao.designpatterns.v1strategypatterns.strategy.domain;
+package com.wenhao.designpatterns.v1.strategy.domain;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.wenhao.designpatterns.v1strategypatterns.strategy.strategycontainer;
+package com.wenhao.designpatterns.v1.strategy.strategycontainer;
 
 /**
  * 具体支付类的容器

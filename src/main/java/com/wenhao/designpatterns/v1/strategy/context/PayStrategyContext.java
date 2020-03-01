@@ -1,9 +1,9 @@
-package com.wenhao.designpatterns.v1strategypatterns.strategy.context;
+package com.wenhao.designpatterns.v1.strategy.context;
 
-import com.wenhao.designpatterns.v1strategypatterns.strategy.domain.Strategy;
-import com.wenhao.designpatterns.v1strategypatterns.strategy.jpa.StrategyRepository;
-import com.wenhao.designpatterns.v1strategypatterns.strategy.strategy.PayStrategy;
-import com.wenhao.designpatterns.v1strategypatterns.strategy.utils.SpringUtil;
+import com.wenhao.designpatterns.v1.strategy.domain.Strategy;
+import com.wenhao.designpatterns.v1.strategy.jpa.StrategyRepository;
+import com.wenhao.designpatterns.v1.strategy.strategy.PayStrategy;
+import com.wenhao.designpatterns.v1.strategy.utils.SpringUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

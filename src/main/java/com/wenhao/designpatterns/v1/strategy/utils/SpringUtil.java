@@ -1,4 +1,4 @@
-package com.wenhao.designpatterns.v1strategypatterns.strategy.utils;
+package com.wenhao.designpatterns.v1.strategy.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

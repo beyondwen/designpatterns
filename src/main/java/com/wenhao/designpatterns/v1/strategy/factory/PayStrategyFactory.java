@@ -1,7 +1,7 @@
-package com.wenhao.designpatterns.v1strategypatterns.strategy.factory;
+package com.wenhao.designpatterns.v1.strategy.factory;
 
-import com.wenhao.designpatterns.v1strategypatterns.strategy.strategy.PayStrategy;
-import com.wenhao.designpatterns.v1strategypatterns.strategy.strategycontainer.StrategyContainer;
+import com.wenhao.designpatterns.v1.strategy.strategy.PayStrategy;
+import com.wenhao.designpatterns.v1.strategy.strategycontainer.StrategyContainer;
 
 /**
  * 通过工厂模式获得具体支付实现类
