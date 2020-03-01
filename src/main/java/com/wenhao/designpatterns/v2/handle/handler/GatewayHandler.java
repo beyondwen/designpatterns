@@ -1,4 +1,4 @@
-package com.wenhao.designpatterns.v2.chainresponsibility.handler;
+package com.wenhao.designpatterns.v2.handle.handler;
 
 public abstract class GatewayHandler {
 
