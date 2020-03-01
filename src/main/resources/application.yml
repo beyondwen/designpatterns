@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://39.104.50.29:7025/strategypatterns
+    username: root
+    password: mhsymysql
