@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
  * 通过工厂模式获得具体支付实现类
  */
 @Component
+@Deprecated
 public class ChainFactory {
     public GatewayHandler gatewayHandler() {
         GatewayHandler gatewayHandler1 = new CurrentLimitHandler();
