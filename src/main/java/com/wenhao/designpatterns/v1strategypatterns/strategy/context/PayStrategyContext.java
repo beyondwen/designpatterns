@@ -21,6 +21,8 @@ public class PayStrategyContext {
         if (StringUtils.isEmpty(payCode)) {
             return "payCode 不能为空";
         }
+        //此处可以使用 工厂模式 但是只能再学习阶段适用，
+        // 线上还是要通过数据库来获取，进行维护
         Strategy strategy = strategyRepository.findByChannelId(payCode);
         if (strategy == null) {
             return "策略为空";
