@@ -6,6 +6,11 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * jdk动态代理：jdk会生成一个动态代理类，生成的这个代理类继承 Proxy和实现需要代理的类
+ * 该动态类会调用自己实现的jdk动态代理类，在调用时会将自己的代理类和方法以及参数
+ * 传入自己实现的jdk代理的invoke方法中
+ */
 @Slf4j
 public class JdkInvocationHandler implements InvocationHandler {
 

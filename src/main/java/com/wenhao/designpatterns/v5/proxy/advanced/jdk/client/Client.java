@@ -10,6 +10,7 @@ public class Client {
     public static void main(String[] args) {
         OrderService orderService = new JdkInvocationHandler(new OrderServiceImpl()).getProxy();
         System.out.println(orderService);
+        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
         orderService.service();
     }
 }
