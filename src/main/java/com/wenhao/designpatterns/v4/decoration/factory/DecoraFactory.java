@@ -8,12 +8,13 @@ import com.wenhao.designpatterns.v4.decoration.decorator.impl.LogDecorator;
 public class DecoraFactory {
 
     public static GatewayComponent gatewayComponent() {
-        LogDecorator logDecorator = new LogDecorator();
+        /*LogDecorator logDecorator = new LogDecorator();
         LimitDecorator limitDecorator = new LimitDecorator();
         BasicComponentGateway basicComponentGateway = new BasicComponentGateway();
         limitDecorator.setGatewayComponent(logDecorator);
         logDecorator.setGatewayComponent(basicComponentGateway);
-        return limitDecorator;
+        return limitDecorator;*/
+        return new LimitDecorator(new LogDecorator(new BasicComponentGateway()));
     }
 
     public static void main(String[] args) {

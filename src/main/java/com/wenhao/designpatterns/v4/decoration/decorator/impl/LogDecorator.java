@@ -1,10 +1,14 @@
 package com.wenhao.designpatterns.v4.decoration.decorator.impl;
 
+import com.wenhao.designpatterns.v4.decoration.component.GatewayComponent;
 import com.wenhao.designpatterns.v4.decoration.decorator.AbstractDecorator;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class LogDecorator extends AbstractDecorator {
+    public LogDecorator(GatewayComponent gatewayComponent) {
+        super(gatewayComponent);
+    }
 
     //GatewayComponent gatewayComponent;
 
