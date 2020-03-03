@@ -1,4 +1,4 @@
-package com.wenhao.designpatterns.v7.observer.observer;
+package com.wenhao.designpatterns.v7.observer.basic.observer;
 
 /**
  * 抽象观察者

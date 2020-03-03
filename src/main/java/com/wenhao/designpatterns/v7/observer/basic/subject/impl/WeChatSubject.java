@@ -1,7 +1,7 @@
-package com.wenhao.designpatterns.v7.observer.subject.impl;
+package com.wenhao.designpatterns.v7.observer.basic.subject.impl;
 
-import com.wenhao.designpatterns.v7.observer.observer.AbstractObserver;
-import com.wenhao.designpatterns.v7.observer.subject.AbstractSubject;
+import com.wenhao.designpatterns.v7.observer.basic.observer.AbstractObserver;
+import com.wenhao.designpatterns.v7.observer.basic.subject.AbstractSubject;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;

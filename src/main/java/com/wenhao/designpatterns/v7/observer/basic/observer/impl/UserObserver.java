@@ -1,6 +1,6 @@
-package com.wenhao.designpatterns.v7.observer.observer.impl;
+package com.wenhao.designpatterns.v7.observer.basic.observer.impl;
 
-import com.wenhao.designpatterns.v7.observer.observer.AbstractObserver;
+import com.wenhao.designpatterns.v7.observer.basic.observer.AbstractObserver;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

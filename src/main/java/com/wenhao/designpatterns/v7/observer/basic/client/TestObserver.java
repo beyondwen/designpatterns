@@ -1,8 +1,8 @@
-package com.wenhao.designpatterns.v7.observer.client;
+package com.wenhao.designpatterns.v7.observer.basic.client;
 
-import com.wenhao.designpatterns.v7.observer.observer.impl.UserObserver;
-import com.wenhao.designpatterns.v7.observer.subject.AbstractSubject;
-import com.wenhao.designpatterns.v7.observer.subject.impl.WeChatSubject;
+import com.wenhao.designpatterns.v7.observer.basic.observer.impl.UserObserver;
+import com.wenhao.designpatterns.v7.observer.basic.subject.AbstractSubject;
+import com.wenhao.designpatterns.v7.observer.basic.subject.impl.WeChatSubject;
 
 /**
  * 抽象主题的作用是，定义操作观察者的一系列方法，比如添加，删除观察者，以及更新消息内容，

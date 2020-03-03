@@ -1,6 +1,6 @@
-package com.wenhao.designpatterns.v7.observer.subject;
+package com.wenhao.designpatterns.v7.observer.basic.subject;
 
-import com.wenhao.designpatterns.v7.observer.observer.AbstractObserver;
+import com.wenhao.designpatterns.v7.observer.basic.observer.AbstractObserver;
 
 public interface AbstractSubject {
 
