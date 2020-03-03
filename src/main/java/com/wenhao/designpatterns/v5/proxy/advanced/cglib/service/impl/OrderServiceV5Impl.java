@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-public class OrderServiceImpl{
+public class OrderServiceV5Impl {
 
     public void service() {
         log.info("业务处理中。。。。。");
