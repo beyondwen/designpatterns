@@ -1,6 +1,6 @@
 package com.wenhao.designpatterns.v9.singleton.lazy.client;
 
-import com.wenhao.designpatterns.v9.singleton.lazy.Singleton;
+import com.wenhao.designpatterns.v9.singleton.lazy.SingletonV2;
 
 public class LazySingletonTest {
 
@@ -10,7 +10,7 @@ public class LazySingletonTest {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println(Thread.currentThread().getName() + Singleton.getInstance());
+                    System.out.println(Thread.currentThread().getName() + SingletonV2.getInstance());
                 }
             }).start();
         }
