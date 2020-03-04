@@ -1,4 +1,4 @@
-package com.wenhao.designpatterns.v9.singleton.hungryman;
+package com.wenhao.designpatterns.v9.singleton.hungry;
 
 public class Singleton {
 

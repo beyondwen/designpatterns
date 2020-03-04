@@ -1,6 +1,6 @@
-package com.wenhao.designpatterns.v9.singleton.hungryman.client;
+package com.wenhao.designpatterns.v9.singleton.hungry.client;
 
-import com.wenhao.designpatterns.v9.singleton.hungryman.Singleton;
+import com.wenhao.designpatterns.v9.singleton.hungry.Singleton;
 
 public class SingletonTest {
     public static void main(String[] args) {
