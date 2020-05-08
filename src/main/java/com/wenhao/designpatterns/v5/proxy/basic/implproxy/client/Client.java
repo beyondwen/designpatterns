@@ -1,4 +1,4 @@
-package com.wenhao.designpatterns.v5.proxy.basic.client;
+package com.wenhao.designpatterns.v5.proxy.basic.implproxy.client;
 
 import com.wenhao.designpatterns.v5.proxy.basic.implproxy.service.OrderService;
 import com.wenhao.designpatterns.v5.proxy.basic.implproxy.service.impl.OrderServiceImpl;
