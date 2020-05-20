@@ -31,6 +31,11 @@ public class JdkInvacation implements InvocationHandler {
         return result;
     }
 
+    /**
+     * 获取代理类
+     * @param <T> 代理类
+     * @return 代理类
+     */
     public <T> T getProxy() {
         return (T) Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
     }
