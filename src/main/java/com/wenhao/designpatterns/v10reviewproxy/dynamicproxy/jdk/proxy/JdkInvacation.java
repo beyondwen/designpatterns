@@ -5,15 +5,27 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 public class JdkInvacation implements InvocationHandler {
+    /**
+     * 目标类
+     */
     private Object target;
 
     public JdkInvacation(Object target) {
         this.target = target;
     }
 
+    /**
+     *
+     * @param proxy 代理类
+     * @param method 目标方法
+     * @param args 目标方法参数
+     * @return 返回执行结果
+     * @throws Throwable 异常
+     */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("目标方法之前执行");
+        //传入目标类 和 目标方法参数
         Object result = method.invoke(target, args);
         System.out.println("目标方法之后执行");
         return result;
