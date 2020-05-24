@@ -8,7 +8,10 @@ public class test {
 
     public static void main(String[] args) {
         System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
-        UserService proxy = new JdkInvacation(new UserServiceImpl()).getProxy();
+        JdkInvacation jdkInvacation = new JdkInvacation(new UserServiceImpl());
+        UserService proxy = jdkInvacation.getProxy();
         proxy.add();
+        /*$Proxy0 proxy = new $Proxy0(new JdkInvacation(new UserServiceImpl()));
+        proxy.add();*/
     }
 }
