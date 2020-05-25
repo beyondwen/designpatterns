@@ -62,7 +62,7 @@ public class ServenUserService$$EnhancerByCGLIB$$66238d68 extends ServenUserServ
             throwable.printStackTrace();
         }
 
-        super.add();
+        //super.add();
     }
 
     final boolean CGLIB$equals$1(Object obj) {

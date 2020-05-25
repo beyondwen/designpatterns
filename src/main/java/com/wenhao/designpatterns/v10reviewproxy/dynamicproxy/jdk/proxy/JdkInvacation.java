@@ -26,6 +26,8 @@ public class JdkInvacation implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("目标方法之前执行");
         //传入目标类 和 目标方法参数
+        String name = method.getName();
+        System.out.println(method.getClass());
         Object result = method.invoke(target, args);
         System.out.println("目标方法之后执行");
         return result;
